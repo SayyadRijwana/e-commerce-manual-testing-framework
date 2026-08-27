@@ -1,0 +1,5 @@
+Test Case ID,Feature,Test Scenario,Test Steps,Expected Result,Actual Result,Status
+TC_ECOMM_001,Login,Verify login with valid credentials,"1. Enter valid email\n2. Enter valid password\n3. Click Login",User should redirect to homepage dashboard,Redirected to homepage successfully,Pass
+TC_ECOMM_002,Search,Verify search with precise keywords,"1. Type 'Smartphone' in search bar\n2. Press Enter",Relevant smartphone products must be displayed,Correct product search listings appeared,Pass
+TC_ECOMM_003,Cart,Verify adding product to shopping cart,"1. Open item page\n2. Click 'Add to Cart' button",Product added to cart. Cart counter increments by 1,Product added successfully. Counter updated,Pass
+TC_ECOMM_004,Cart,Verify checkout with empty cart,"1. Go to cart directly\n2. Click 'Proceed to Checkout'",System should throw 'Cart is empty' validation error,System allows navigation to payment gateway page,Fail
