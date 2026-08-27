@@ -1,0 +1,3 @@
+Bug ID,Summary,Severity,Priority,Steps to Reproduce,Expected Result,Actual Result,Status
+BUG_ECOMM_001,Checkout allowed with empty cart,High,High,"1. Login to app\n2. Keep cart empty\n3. Click Checkout button","'Cart is empty' notification should appear",System allows navigation directly to payments page,Open
+BUG_ECOMM_002,Search returns no results for trailing spaces,Medium,Low,"1. Enter 'Laptop '\n2. Click search button",System should trim spaces and show laptops,"Message shows 'No items found'",Open
